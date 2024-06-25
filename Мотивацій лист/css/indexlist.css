@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+}
+body{
+    padding-top: 0.1px;
+    margin: 0px;
+    background: linear-gradient(90deg, #fad89ebd, #f29bfdb0);
+
+}
+
+
+
+
+
+a{
+    text-decoration-line: none;
+ 
+}
+.upper{
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(90deg, #19013b, #da015f);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.upper div, a{
+    float: left;
+}
+
+.name{
+    margin-top: 40px; 
+    margin-left: 20px;
+    color: rgba(245, 245, 245, 0.882);
+    text-shadow: black;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+.name .active:hover{
+    color: green;
+}
+.enter{
+    margin-top: 40px; 
+    margin-left: 20px;
+    color: rgba(245, 245, 245, 0.882);
+    font-weight: 500;
+    font-size: 24px;
+}
+.what{
+    margin-top: 40px; 
+    margin-left: 20px;
+    color: rgba(245, 245, 245, 0.882);
+    text-shadow: black;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+.iam{
+    margin-top: 40px; 
+    margin-left: 20px;
+    color: rgba(245, 245, 245, 0.882);
+    text-shadow: black;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.ua{
+    
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.bgraund{
+    background-image: url(../material/140520040129.jpg);
+}
+/* .enter1{
+    margin-top: 40px; 
+    margin-left: 10px;
+    color: rgba(245, 245, 245, 0.882);
+    font-weight: 500;
+    font-size: 24px;
+} */
+.upper a:hover{
+    position: relative;
+    margin-top: 35px;
+    
+    cursor: pointer;
+}
+.active{
+    color: #D5FFC1;
+}
+
+.name .active:hover{
+    color: green;
+}
+.text{
+    color: rgb(255, 255, 255);
+}
+
+.lower{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 100%;
+    background: linear-gradient(180deg, #444444 0%, #000000 138.17%);
+}
+.developer{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+.gmail{
+    position: absolute;
+    left: 1190px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
